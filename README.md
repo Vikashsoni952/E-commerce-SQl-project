@@ -204,24 +204,8 @@ SELECT department, AVG(salary) AS avg_salary FROM Employees GROUP BY department;
 3. **Order and Revenue Tracking**: Summarize total orders, revenue, and monitor purchasing trends.
 4. **Employee Salary Comparison**: Compare employee salaries across departments, and identify departments with higher average pay.
 
-## Setup Instructions
 
-### Prerequisites:
-- PostgreSQL installed on your machine.
-- A SQL client or terminal access to execute SQL queries (e.g., pgAdmin, DBeaver).
 
-### Database Setup:
-1. Create a new PostgreSQL database:
-    ```bash
-    createdb e_commerce
-    ```
-
-2. Load the SQL script into the database:
-    ```bash
-    psql -d e_commerce -f e-commerce.sql
-    ```
-
-3. Run SQL queries using your preferred SQL client or via the command line.
 
 ## Conclusion
 
